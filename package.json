@@ -1,0 +1,25 @@
+{
+  "name": "aadil-bhatti",
+  "version": "1.0.0",
+  "description": "Aadil Bhatti's personal website",
+  "main": "public/app.js",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "author": "Aadil Bhatti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "webpack": "^1.13.1"
+  }
+}
