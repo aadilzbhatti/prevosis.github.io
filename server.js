@@ -1,14 +1,10 @@
-// import path from 'path';
-// import express from 'express';
-//
-// let app = express();
 var path = require('path');
 var express = require('express');
 var app = express();
 
 app.set('port', (process.env.port || 3000));
 
-app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(__dirname));
 
 app.use(function(req, res, next) {
     // Set permissive CORS header - this allows this server to be used only as
