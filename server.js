@@ -1,3 +1,7 @@
+/*
+* Development server for testing things out
+*/
+
 var path = require('path');
 var express = require('express');
 var app = express();
